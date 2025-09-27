@@ -16,18 +16,18 @@
             position: relative;
             min-height: 100vh;
             min-height: 100dvh; /* Dynamic viewport height para mobile */
-            display: flex;
+            /* display: flex;
             flex-direction: column;
-            justify-content: start;
+            justify-content: start; */
             align-items: center;
             color: white;
             text-align: center;
-            padding: 1rem;
+            /* padding: 1rem; */
             
         }
 
         /* VIDEO BACKGROUND - MOBILE OPTIMIZED */
-        .video-background {
+       /*  .video-background {
             position: relative;
             top: 0;
             left: 0;
@@ -47,7 +47,7 @@
             height: auto;
             transform: translate(-50%, -5%);
             pointer-events: none;
-        }
+        } */
 
         /* OVERLAY PARA MELHOR LEGIBILIDADE */
         .overlay {
@@ -321,7 +321,7 @@
             left: 4%;
            
             li{
-                width: 40px!important;
+                width: 50px!important;
                 height: 100px;
                 object-fit: cover;
             }
