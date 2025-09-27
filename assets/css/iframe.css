@@ -1,4 +1,5 @@
 div.video-background {
+  width: 100%;
   /* Define a posição para o iframe ficar por cima */
   position: relative;
   /* Define a proporção 16:9. A altura é 56.25% da largura. */
